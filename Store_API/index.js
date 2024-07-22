@@ -1,5 +1,6 @@
 import { log } from "console"
 import express from "express"
+import "express-async-errors"
 import { custom404, errorHandler } from "./errors/storeErrors.js"
 import StoreRoute from "./route/storeRoute.js"
 import { connect } from "mongoose"

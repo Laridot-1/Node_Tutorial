@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
     "mongoose": "^8.5.1"
   },
   "type": "module",
   "name": "store_api",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node .",
     "dev": "node --watch --env-file=.env ."

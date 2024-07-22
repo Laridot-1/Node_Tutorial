@@ -5,7 +5,7 @@ const custom404 = (req, res) => {
 }
 
 const errorHandler = (err, req, res, next) => {
-  res.status(err.status).json({ msg: err.message })
+  res.status(err.status || 400).json({ msg: err.message })
 }
 
 export { custom404, errorHandler }
